@@ -2,7 +2,7 @@ var ranks = require('../ranks');
 
 function flirt(module, bot) {
 	var request = require("request");
-	var flirtURL = "https://rawgit.com/donvoo/NC331-Flirt/master/flirt.json";
+	var flirtURL = "https://rawgit.com/Elusiveness/NC331-Flirt/master/flirt.json";
 	request({
 		url: flirtURL,
 		json: true
